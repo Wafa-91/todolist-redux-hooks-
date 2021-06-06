@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+  width:500px;
+  margin:auto;
+  border-style: double;
+  margin-top:30px ;
+  background-color: cornflowerblue;
+
+}
+
+/* .isdone
+{
+  text-decoration: ;
+} */
+
+.task
+{
+  margin-top: 10px;
+}
+
+
+
+.listtask
+{
+  margin-top: 20px;
+ 
+}
+.filtertask
+{
+ 
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.filtertask Button{
+
+margin-left: 10px;
+width: 110px;
+}
