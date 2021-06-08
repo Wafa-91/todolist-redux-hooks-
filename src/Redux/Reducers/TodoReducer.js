@@ -16,9 +16,9 @@ switch(action.type)
 // var carIndex = colors.indexOf("car")
 // var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
 // var removed = arr.splice(2,2);
-removed === [3, 4]
-arr === [1, 2, 5, 6, 7, 8, 9, 0]
-*/
+// removed === [3, 4]
+// arr === [1, 2, 5, 6, 7, 8, 9, 0]
+// */
 
 let index = state.tabtodo.findIndex(x => x.id === action.payload);
 state.tabtodo.splice(index, 1);
