@@ -7,12 +7,17 @@ import FilterTask from './Components/FilterTask'
 
 
 function App() {
+  
   return (
+    
     <div className="App">
-      TODO LIST APPLICATION
+      <img src="/imgredux.png" ></img>
+      <div className="cont">
+
  <AddTask/>
  <ListTask/>
  <FilterTask/>
+ </div>
     </div>
   );
 }

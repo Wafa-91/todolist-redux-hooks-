@@ -11,19 +11,19 @@ const Task = ({todotask}) => {
 const [inputTodo, setinpuTodo] = useState("");
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+
     return (
         <div className="task">
           
             {/* {todotask.id} */}
             
-     
       
     <input type="text" value={todotask.task} style={{textDecoration:todotask.isdone?'line-through red':'none'}} />
     {/* className={todotask.isdone? 'RED Done' : ''} 
     .RED Done{
     text-decoration: line-through red;
 } */}
-<button  onClick={()=>dispatch(doneORnot(todotask.id))}style={{ color: "green" }} > <IoCheckmarkDoneSharp /></button>
+<button  onClick={()=>dispatch(doneORnot(todotask.id))}style={{ color: todotask.isdone?'red':'green'}} > <IoCheckmarkDoneSharp /></button>
      <button  onClick={handleShow}>
      <AiFillEdit />
       </button>

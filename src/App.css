@@ -1,8 +1,16 @@
 .App {
+  
+
+}
+img{
+  width: 100%;
+}
+.cont
+{
   text-align: center;
   width:500px;
-  margin:auto;
-  border-style: double;
+margin-left: 500px;
+ 
   margin-top:30px ;
   background-color: cornflowerblue;
 
@@ -13,6 +21,12 @@
   text-decoration: ;
 } */
 
+.addtask
+{
+  padding-top: 10px;
+ 
+ 
+}
 .task
 {
   margin-top: 10px;
@@ -35,4 +49,5 @@
 
 margin-left: 10px;
 width: 110px;
+margin-bottom: 10px;
 }

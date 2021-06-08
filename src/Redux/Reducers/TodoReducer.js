@@ -12,12 +12,10 @@ switch(action.type)
   { 
 //     let tab2 = state.tabtodo.filter(obj => obj.id !== action.payload);
 //     return{...state,tabtodo:tab2}
-
 //     var colors = ["red","blue","car","green"];
 // var carIndex = colors.indexOf("car")
 // var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
 // var removed = arr.splice(2,2);
-/*
 removed === [3, 4]
 arr === [1, 2, 5, 6, 7, 8, 9, 0]
 */
@@ -40,8 +38,6 @@ state.tabtodo.splice(index, 1);
   }
 
    
- 
-
   case DONEONRNOT_TASK:  
   { 
       let newtab = state.tabtodo.map(obj => obj.id === action.payload ? { ...obj, isdone: !obj.isdone} : obj);
@@ -77,3 +73,4 @@ state.tabtodo.splice(index, 1);
 }
 }
 export default todoReducer
+
